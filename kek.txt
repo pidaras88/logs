@@ -1,117 +1,3 @@
-runtime.gopark(0x75e2f6d5c13e6?, 0x3?, 0x43?, 0x54?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00047e738 sp=0xc00047e718 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00047e7c8 sp=0xc00047e738 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00047e7e0 sp=0xc00047e7c8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc00047e7e8 sp=0xc00047e7e0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 39 gp=0xc0004768c0 m=nil [GC worker (idle)]:
-runtime.gopark(0x3bb9d40?, 0x1?, 0xa1?, 0xa8?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00047ef38 sp=0xc00047ef18 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00047efc8 sp=0xc00047ef38 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00047efe0 sp=0xc00047efc8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc00047efe8 sp=0xc00047efe0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 10 gp=0xc0000d6700 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d5c67b6?, 0x3?, 0x5f?, 0x1?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc000478f38 sp=0xc000478f18 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc000478fc8 sp=0xc000478f38 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc000478fe0 sp=0xc000478fc8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc000478fe8 sp=0xc000478fe0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 25 gp=0xc000103500 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d5aea9f?, 0x3?, 0xea?, 0x94?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00027c738 sp=0xc00027c718 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00027c7c8 sp=0xc00027c738 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00027c7e0 sp=0xc00027c7c8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc00027c7e8 sp=0xc00027c7e0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 40 gp=0xc000476a80 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d5acff5?, 0x3?, 0x48?, 0x19?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00047f738 sp=0xc00047f718 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00047f7c8 sp=0xc00047f738 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00047f7e0 sp=0xc00047f7c8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc00047f7e8 sp=0xc00047f7e0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 26 gp=0xc0001036c0 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d76e0af?, 0x1?, 0x88?, 0x50?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc002013f38 sp=0xc002013f18 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc002013fc8 sp=0xc002013f38 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc002013fe0 sp=0xc002013fc8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc002013fe8 sp=0xc002013fe0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 41 gp=0xc000476c40 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d76e1a6?, 0x3?, 0x59?, 0x8?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc002b85f38 sp=0xc002b85f18 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc002b85fc8 sp=0xc002b85f38 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc002b85fe0 sp=0xc002b85fc8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc002b85fe8 sp=0xc002b85fe0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 27 gp=0xc000103880 m=nil [GC worker (idle)]:
-runtime.gopark(0x3bb9d40?, 0x1?, 0xae?, 0x57?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00027a738 sp=0xc00027a718 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00027a7c8 sp=0xc00027a738 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00027a7e0 sp=0xc00027a7c8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc00027a7e8 sp=0xc00027a7e0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 11 gp=0xc0000d68c0 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d78e6ba?, 0x3?, 0x75?, 0x8f?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc000479738 sp=0xc000479718 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc0004797c8 sp=0xc000479738 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc0004797e0 sp=0xc0004797c8 pc=0x42a7c5
-runtime.goexit({})
-        runtime/asm_amd64.s:1693 +0x1 fp=0xc0004797e8 sp=0xc0004797e0 pc=0x486341
-created by runtime.gcBgMarkStartWorkers in goroutine 1
-        runtime/mgc.go:1373 +0x105
-
-goroutine 42 gp=0xc000476e00 m=nil [GC worker (idle)]:
-runtime.gopark(0x75e2f6d76d60b?, 0x1?, 0x52?, 0x2a?, 0x0?)
-        runtime/proc.go:460 +0xce fp=0xc00008ff38 sp=0xc00008ff18 pc=0x47e6ee
-runtime.gcBgMarkWorker(0xc000110540)
-        runtime/mgc.go:1463 +0xeb fp=0xc00008ffc8 sp=0xc00008ff38 pc=0x42a8eb
-runtime.gcBgMarkStartWorkers.gowrap1()
-        runtime/mgc.go:1373 +0x25 fp=0xc00008ffe0 sp=0xc00008ffc8 pc=0x42a7c5
 runtime.goexit({})
         runtime/asm_amd64.s:1693 +0x1 fp=0xc00008ffe8 sp=0xc00008ffe0 pc=0x486341
 created by runtime.gcBgMarkStartWorkers in goroutine 1
@@ -198,4 +84,117 @@ created by os/signal.Notify.func1.1 in goroutine 1
         os/signal/signal.go:152 +0x1f
 sastd: marked 1 scan(s) failed (previous process ended while they were still running; see err on GET …/info)
 sastd on :8080  P1.2b: Bolt (inline)  v1: GET /v1/health  POST /v1/projects  POST /v1/scans{project_id}  GET /v1/scans/N/findings?limit&offset  GET /v1/scans/N/source?path&line  (legacy POST /scans: 410; SASTD_ALLOW_LEGACY_POST_SCANS=1)  docs/V1_API.md
+runtime: goroutine stack exceeds 1000000000-byte limit
+runtime: sp=0xc0240c8370 stack=[0xc0240c8000, 0xc0440c8000]
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw({0x187d56a?, 0x41ca85?})
+        runtime/panic.go:1094 +0x48 fp=0x7f87709fed20 sp=0x7f87709fecf0 pc=0x47e5c8
+runtime.newstack()
+        runtime/stack.go:1159 +0x5bd fp=0x7f87709fee50 sp=0x7f87709fed20 pc=0x4636fd
+runtime.morestack()
+        runtime/asm_amd64.s:620 +0x7d fp=0x7f87709fee58 sp=0x7f87709fee50 pc=0x48449d
+
+goroutine 296 gp=0xc000603180 m=20 mp=0xc000101808 [running]:
+runtime.mapaccess2_fast64(0x16dea40?, 0xc002182210?, 0x36a5?)
+        internal/runtime/maps/runtime_fast64_swiss.go:86 +0x1f7 fp=0xc0240c8380 sp=0xc0240c8378 pc=0x410717
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:329 +0x51 fp=0xc0240c83c8 sp=0xc0240c8380 pc=0xaea0f1
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8410 sp=0xc0240c83c8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8458 sp=0xc0240c8410 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c84a0 sp=0xc0240c8458 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c84e8 sp=0xc0240c84a0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8530 sp=0xc0240c84e8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8578 sp=0xc0240c8530 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c85c0 sp=0xc0240c8578 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8608 sp=0xc0240c85c0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8650 sp=0xc0240c8608 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8698 sp=0xc0240c8650 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c86e0 sp=0xc0240c8698 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8728 sp=0xc0240c86e0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8770 sp=0xc0240c8728 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c87b8 sp=0xc0240c8770 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8800 sp=0xc0240c87b8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8848 sp=0xc0240c8800 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8890 sp=0xc0240c8848 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c88d8 sp=0xc0240c8890 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8920 sp=0xc0240c88d8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8968 sp=0xc0240c8920 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c89b0 sp=0xc0240c8968 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c89f8 sp=0xc0240c89b0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8a40 sp=0xc0240c89f8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8a88 sp=0xc0240c8a40 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8ad0 sp=0xc0240c8a88 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8b18 sp=0xc0240c8ad0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8b60 sp=0xc0240c8b18 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8ba8 sp=0xc0240c8b60 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8bf0 sp=0xc0240c8ba8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8c38 sp=0xc0240c8bf0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8c80 sp=0xc0240c8c38 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8cc8 sp=0xc0240c8c80 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8d10 sp=0xc0240c8cc8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8d58 sp=0xc0240c8d10 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8da0 sp=0xc0240c8d58 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8de8 sp=0xc0240c8da0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8e30 sp=0xc0240c8de8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8e78 sp=0xc0240c8e30 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8ec0 sp=0xc0240c8e78 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8f08 sp=0xc0240c8ec0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8f50 sp=0xc0240c8f08 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8f98 sp=0xc0240c8f50 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c8fe0 sp=0xc0240c8f98 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c9028 sp=0xc0240c8fe0 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3690)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c9070 sp=0xc0240c9028 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x3682)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c90b8 sp=0xc0240c9070 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x369d)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c9100 sp=0xc0240c90b8 pc=0xaea11f
+github.com/jkoimni/sast/pkg/sast/taint.depthFromSink.func1(0x36a5)
+        github.com/jkoimni/sast/pkg/sast/taint/trace.go:337 +0x7f fp=0xc0240c9148 sp=0xc0240c9100 pc=0xaea11f
 
